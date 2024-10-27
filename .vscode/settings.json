@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
         "addblog",
-        "reduxjs"
+        "deleteblog",
+        "reduxjs",
+        "updateblog",
+        "updatedblog"
     ]
 }

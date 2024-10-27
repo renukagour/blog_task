@@ -18,6 +18,7 @@ const AddBlog = () => {
         e.preventDefault();
         console.log('Form submitted', title, content, author);
         dispatch(addblog({id:posts[posts.length-1].id+1,title, content, author}));
+        alert("created a new blog")
         navigate('/');
     }
 
